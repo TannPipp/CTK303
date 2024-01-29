@@ -1,0 +1,139 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+header {
+  background-color:brown;
+  grid-column: span 9;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;;
+}
+header h1 {
+  padding-top: 0px;
+}
+div nav {
+  grid-column: span 3;
+  background-color: brown;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px ;
+}
+nav ul {
+  list-style-type: none; 
+  text-align: center;
+  padding-inline-start: 10px;
+}
+nav li {
+  display: inline-block;
+  padding: 0 12px;
+   
+}
+span {
+  text-decoration: none;
+  display: block;
+  padding: 12px 20px;
+  background-color:darkred;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px red;
+  transition: background-color 1.0s, box-shadow 0.5s;
+}
+footer nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 12px 20px;
+  background-color:darkred;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px red;
+  transition: background-color 1.0s, box-shadow 0.5s;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 12px 20px;
+  background-color:darkred;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px red;
+  transition: background-color 1.0s, box-shadow 0.5s;
+}
+nav li a:hover {
+  background-color:red;
+  box-shadow: 5px 5px 5px rgb(75, 0, 0);
+}
+main a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  background-color:darkred;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px red;
+  transition: background-color 1.0s, box-shadow 0.5s;
+}
+main a:hover {
+  background-color:red;
+  box-shadow: 5px 5px 5px rgb(75, 0, 0);
+}
+
+main {
+  grid-column: span 12;
+}
+main p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+main h2 {
+  display: grid;
+  grid-column: span 6;
+  background-color:brown;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 36px;
+  margin: 24px 0;
+
+
+}
+main div {
+ grid-column: span 12;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
+
+audio {
+  float:unset;
+grid-column: span 6;
+ }
+footer {
+  background-color: brown;
+  grid-column: span 12;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 24px ;
+}
+ 
