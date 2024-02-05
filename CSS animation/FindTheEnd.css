@@ -1,0 +1,107 @@
+.circle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius:500px;
+    opacity: 1;
+    background-color: rgb(255, 99, 99);
+    animation: circle1-ani 20s linear infinite;
+  }
+   @keyframes circle1-ani {
+    0%   { left: 0; }
+    50%  { }
+    100% { left: 1850px;  }
+  }
+  .bar1 {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    width: 1900px;
+    height: 25px;
+    border-radius:500px;
+    opacity: 0.5;
+    background-color: rgb(114, 114, 114);
+  }
+  
+  img {
+    opacity: 0; 
+  }
+
+  #arrow1 img {
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+  #arrow2 img {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    transition: all .25s;
+  }
+  
+  #arrow2:hover img {
+    opacity: 1;
+    transform: rotate(90deg);
+  }
+  #arrow3 img {
+    position: absolute;
+    top: 800px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    transition: all .25s;
+  }
+  
+  #arrow3:hover img {
+    opacity: 1 ;
+    transform: rotate(180deg);
+  }
+
+  #arrow4 img {
+    position: absolute;
+    top: 800px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    transition: all .25s;
+  }
+  
+  #arrow4:hover img {
+    opacity: 1 ;
+    transform: rotate(330deg);
+  }
+
+  #arrow5 img {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    width: 100px;
+    height: 100px;
+    transition: all .25s;
+  }
+  
+  #arrow5:hover img {
+    opacity: 1 ;
+    transform: rotate(90deg);
+  }
+  #Dog1 img {
+    position: absolute;
+    overflow: hidden;
+    top: 500px;
+    left: 850px;
+    width: 200px;
+    height: 200px;
+    transition: all .25s;
+  }
+  
+  #Dog1:hover img {
+    opacity: 1 ;
+    transform: scale(2.0);
+}
