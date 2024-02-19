@@ -1,0 +1,42 @@
+body { margin: 0; }
+
+section { 
+    height: 240vh; /* 90% of viewport (window) height */
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1, #section3 {
+    background-image: url(background.jpg);
+    height: 90vh;    
+    color: rgb(8, 129, 4);
+    font-size: 6rem;
+}
+div img {
+    height: 500px;
+    grid-row: auto;
+}
+
+#peekaboo {
+    width: 50vw; /* 50% of viewport (window) width */
+    opacity: 0;
+    transform: translate(0,-100px);
+    transition: all 1s;
+ }
+ 
+ #peekaboo.show {
+    opacity: 1;
+    transform: translate(0,0);
+ }
+ a:visited {
+    color: rgb(8, 129, 4)
+ }
+ a {
+    text-decoration: none;
+ }
+

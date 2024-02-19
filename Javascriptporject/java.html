@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="java.css">
+    <title>Java Sip Shack</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <section id="section1">
+        <h1>Sip Shack:Valentines Specials</h1>
+    </section>
+
+    <section id="section2">
+        <div id="peekaboo">
+            <div class="column">
+                <img src="427946602_726875842911500_3316533198232708047_n.jpg" alt="Snow">
+                <p> Raspberry Bellini Lotus</p>
+              </div>
+              <div class="column">
+                <img src="426172143_723806356551782_7294763051935264150_n.jpg" alt="Forest">
+                <p> SweetHeart and Love Brew Latte </p>
+              </div>
+              <div class="column">
+                <img src="427133473_726564842942600_8421966750059754422_n.jpg" alt="Mountains">
+              </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <h2><a href="https://www.facebook.com/sip.shack66" target="_blank"> About us <i class="bi bi-facebook"></i></i></a></h2>
+    </section>
+    <script>
+        var logo = document.getElementById("peekaboo");
+
+        function checkPosition() {
+      var logoTop = logo.offsetTop;
+      var windowScroll = window.scrollY;
+
+      console.log("logoTop: ", logoTop);
+      console.log("windowScroll: ", windowScroll);
+
+      if (logoTop - windowScroll < 600) {
+          logo.classList.add("show");
+        } else {
+         logo.classList.remove("show");
+      }
+    }
+    window.addEventListener("scroll",checkPosition);
+     </script>
+
+</body>
+</html>
