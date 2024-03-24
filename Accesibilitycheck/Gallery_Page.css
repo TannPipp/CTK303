@@ -1,0 +1,139 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+header {
+  background-color: #59CDFF;
+  grid-column: span 6;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;;
+}
+
+div nav {
+  grid-column: span 6;
+  background-color: #59CDFF;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px ;
+}
+nav ul {
+  list-style-type: none; 
+  text-align: center;
+padding-inline-start: 10px;
+}
+nav li {
+  display: inline-block;
+  padding: 0 12px;
+  
+  
+  
+}
+footer nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 12px 50px;
+  background-color:#005aa3;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px dodgerblue;
+  transition: background-color 1.0s, box-shadow 0.5s;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 12px 20px;
+  background-color:#005aa3;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px dodgerblue;
+  transition: background-color 1.0s, box-shadow 0.5s;
+}
+span {
+  text-decoration: none;
+  display: block;
+  padding: 12px 20px;
+  background-color:#005aa3;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px dodgerblue;
+  transition: background-color 1.0s, box-shadow 0.5s;
+}
+a:hover {
+  background-color:dodgerblue;
+  box-shadow: 5px 5px 5px rgb(19, 89, 159);
+}
+
+main {
+  grid-column: span 4;
+  padding: 10px;
+}
+main img {
+  border: solid 1px black;
+}
+main p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  padding: 10px;
+}
+
+ h2 {
+  display: grid;
+  grid-column: span 2;
+  background-color:#005aa3;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 36px;
+  margin: 24px 0;
+}
+main div {
+ grid-column: span 12;
+}
+#Gallery-2 {
+  grid-column: span 4;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+#Gallery-2 img {
+  text-align: justify;
+}
+#Gallery-2 p {
+  margin: 10px;
+}
+aside {
+  grid-column: span 4;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+aside p {
+  margin: 10px;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #59CDFF;
+  grid-column: span 12;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 24px ;
+}
+ 
